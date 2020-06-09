@@ -4,8 +4,6 @@
 
 ## Overview
 
----
-
 I have decided to use this project as an opportunity to explore my research into the 
 subject of alternative health and wellbeing and to present the ideas, practices and 
 findings as information to the user.
@@ -16,8 +14,6 @@ and a unique members area for registered users/clients.
 ***
 
 ## UX
-
----
 
 As the subject of the project is my own research into alternative health practices, the 
 primary demographic of users will be people interested in learning more about such practices,
@@ -48,8 +44,6 @@ High-resolution mockups/wireframes can be found in the 'Wireframes' folder withi
 
 ## Features
 
----
-
 ### Existing Features
 
 * 
@@ -70,8 +64,6 @@ High-resolution mockups/wireframes can be found in the 'Wireframes' folder withi
 ***
 
 ## Technologies Used
-
----
 
 HTML and CSS
 
@@ -111,8 +103,6 @@ HTML and CSS
 
 ## Testing
 
----
-
 Testing was implemented throughout the development of the proect. Below is a list of tests which I had performed.
 
 I made sure that -
@@ -131,8 +121,6 @@ I made sure that -
 
 ## Deployment
 
----
-
 I decided to deploy my project using GitHub pages. Using Github pages to publish my repository was a relatively simple process to execute. 
 I went to 'settings' section of my project repository and changed the source to the master branch of the project repository.
 
@@ -141,8 +129,6 @@ The site can be found here: [Site](#)
 ***
 
 ## Credits
-
----
 
 ### content
 
