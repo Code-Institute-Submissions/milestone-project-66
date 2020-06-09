@@ -87,6 +87,15 @@ body, .raleway {
     position: relative;
 }
 
+.main-overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .jumbotron {
     background-color: transparent;
 }
@@ -111,7 +120,7 @@ body, .raleway {
     color: white;
 }
 
-.jumbotron .small {
+.jumbotron small {
     font-size: 60%;
     font-style: italic;
     color: white;
