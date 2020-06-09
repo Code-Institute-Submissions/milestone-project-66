@@ -1,39 +1,161 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project 1 - User Centric Front End Development
 
-Welcome USER_NAME,
+---
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+# Elixr | Bodycentric Healing
 
-## Gitpod Reminders
+***
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Overview
 
-`python3 -m http.server`
+---
 
-A blue button should appear to click: *Make Public*,
+I have decided to use this project as an opportunity to explore my research into the 
+subject of alternative health and wellbeing and to present the ideas, practices and 
+findings as information to the user.
 
-Another blue button should appear to click: *Open Browser*.
+The site will eventually include tailored health programmes, exclusive guides
+and a unique members area for registered users/clients.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+***
 
-A blue button should appear to click: *Make Public*,
+## UX
 
-Another blue button should appear to click: *Open Browser*.
+---
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+As the subject of the project is my own research into alternative health practices, the 
+primary demographic of users will be people interested in learning more about such practices,
+and to learn and experiment safely for themselves. 
 
-## Updates Since The Instructional Video
+I have identified three main potential users of the site:
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### User Stories
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Potential Clients
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+As a potential client, I would like to be able to clearly understand complex topics and 
+so that I can sign up for and be confident of the information I will recieve.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Potential Academic Peers
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+As a potential academic peer, I would like to be able to learn more about research developments
+so I can contribute to further research and to the blog and forum.
 
---------
+#### Casual User
 
-Happy coding!
+As a casual user, I would like to be able to navigate each page easily, 
+so that I am able to the enjoy the content without worrying getting lost.
+
+High-resolution mockups/wireframes can be found in the 'Wireframes' folder within this project.
+
+***
+
+## Features
+
+---
+
+### Existing Features
+
+* 
+
+* 
+
+* 
+
+
+### Features Left to Implememnt
+
+* 
+
+* 
+
+* 
+
+***
+
+## Technologies Used
+
+---
+
+HTML and CSS
+
+1. [Github](https://www.github.com/)
+
+    * Used for hosting and version control
+
+2. [Gitpod](https://www.gitpod.io/)
+
+    * IDE used for writing site source code
+
+3. [Balsamiq](https://www.balsamiq.com)
+
+    * Blasamiq cloud used for creating wireframes/high resolution mockups
+
+4. [Google Developer Tools - Inspect](https://www.google.com/chrome/)
+
+    * Used for testing code and bug fixes
+
+5. [Bootstrap](https://getbootstrap.com/)
+
+    * CDN framework used for layout structure and elements
+
+6. [Font Awesome](https://fontawesome.com/)
+
+    * Used for icon library for social links
+
+7. [Google Fonts](https://fonts.google.com/)
+
+    * Raleway and Roboto has been used throughout this project
+
+8. [Adobe Stock](https://www.stock.adobe.com)
+
+    * Used public domain images for site background and stock images
+
+***
+
+## Testing
+
+---
+
+Testing was implemented throughout the development of the proect. Below is a list of tests which I had performed.
+
+I made sure that -
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+***
+
+## Deployment
+
+---
+
+I decided to deploy my project using GitHub pages. Using Github pages to publish my repository was a relatively simple process to execute. 
+I went to 'settings' section of my project repository and changed the source to the master branch of the project repository.
+
+The site can be found here: [Site](#)
+
+***
+
+## Credits
+
+---
+
+### content
+
+* 
+
+### Media:
+
+* Background image can be found [here](https://stock.adobe.com/uk/search?load_type=search&native_visual_search=&similar_content_id=&is_recent_search=&search_type=usertyped&k=happiness+jar&asset_id=274838583)
+
+### Acknowledgements
+
+* 
