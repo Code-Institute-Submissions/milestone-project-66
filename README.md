@@ -1,10 +1,6 @@
 # Milestone Project 1 - User Centric Front End Development
 
----
-
 # Elixr | Bodycentric Healing
-
-***
 
 ## Overview
 
