@@ -99,6 +99,11 @@ HTML and CSS
 
     * Used public domain images for site background and stock images
 
+9. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+
+    * Used to create a color pallette for site
+
+
 ***
 
 ## Testing
