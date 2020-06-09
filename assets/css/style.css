@@ -87,6 +87,36 @@ body, .raleway {
     position: relative;
 }
 
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.jumbotron .sub-header {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    margin: 25px 0;
+    color: white;
+}
+
+.main-paragraph {
+    padding: 0 50px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.jumbotron .small {
+    font-size: 60%;
+    font-style: italic;
+    color: white;
+}
+
 /*--------------------------------Footer */
 
 footer {
@@ -177,6 +207,7 @@ footer p {
 }
 
 .dropdown-content a {
+    font-weight: bold;
     float: none;
     color: black;
     padding: 10px 10px;
