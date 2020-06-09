@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*------------------------------------- Containers */
+
+.container-wrapper--dark {
+    height: 83vh;
+    background-color: #69685D;
+}
+
+.media {
+    display: block;
+}
+
 /*------------------------------------- Fonts */
 
 body, .raleway {
@@ -32,6 +43,19 @@ body, .raleway {
 .My-Color-Theme-3-hsla { color: hsla(54, 67, 72, 1); }
 .My-Color-Theme-4-hsla { color: hsla(55, 6, 38, 1); }
 .My-Color-Theme-5-hsla { color: hsla(55, 33, 56, 1); }
+
+/*------------------------------------- Dividers */
+
+.block-divider {
+    width: 150px;
+    height: 3px;
+    border: 0;
+    background-color: #ECEAD2;
+}
+
+.block-divider--small {
+    width: 35px;
+}
 
 /*------------------------------------- Navbar */
 
@@ -115,7 +139,9 @@ body, .raleway {
     margin: 0;
 }
 
-.jumbotron .sub-header {
+
+.jumbotron .sub-header,
+.sub-header {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     margin: 25px 0;
@@ -127,6 +153,7 @@ body, .raleway {
     font-family: "Roboto", sans-serif;
     color: white;
     margin-bottom: 20px;
+    font-size: 0.875em;
 }
 
 .jumbotron small {
@@ -135,19 +162,67 @@ body, .raleway {
     color: white;
 }
 
+/*--------------------------------Philosophy */
+
+.philosophy {
+    display: inline-block;
+}
+
+.section-header {
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.meditation-container {
+    margin: 40px 0 20px 40px;
+}
+
+.meditation-circle {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ECEAD2;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
+}
+
+.meditation {
+    position: relative;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
+}
+
+.philosophy-text {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875em;
+    margin: 40px 40px 20px 0;
+}
+
+.philosophy-text strong {
+    text-transform: uppercase;
+    color: #E8E089;
+    letter-spacing: 2px;
+}
+
 /*--------------------------------Footer */
 
 footer {
-    background-color: #69685D;
+    background-color: #fafafa;
     margin: 0;
     padding: 0;
     min-height: 50px;
 }
 
 footer p {
-    margin: 10px;
-    padding-top: 6px;
-    color: white;
+    margin-top: 10px;
+    color: black;
 }
 
 .list-inline {
