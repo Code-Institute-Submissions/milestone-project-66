@@ -117,3 +117,11 @@ body, .raleway {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/*-------------------------------------Media queries */
+
+@media only screen and (max-width : 640px) {
+    .dropdown-content {
+        position: relative;
+    }
+}
