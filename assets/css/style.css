@@ -10,6 +10,29 @@ body, .raleway {
     font-family: "Roboto", sans-serif;
 }
 
+/*------------------------------------- Colors (copied as css from adobe color picker library) */
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #989359; }
+.My-Color-Theme-2-hex { color: #ECEAD2; }
+.My-Color-Theme-3-hex { color: #E8E089; }
+.My-Color-Theme-4-hex { color: #69685D; }
+.My-Color-Theme-5-hex { color: #B5AF6B; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(152, 147, 89, 1); }
+.My-Color-Theme-2-rgba { color: rgba(236, 234, 210, 1); }
+.My-Color-Theme-3-rgba { color: rgba(232, 224, 137, 1); }
+.My-Color-Theme-4-rgba { color: rgba(105, 104, 93, 1); }
+.My-Color-Theme-5-rgba { color: rgba(181, 175, 107, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(55, 26, 47, 1); }
+.My-Color-Theme-2-hsla { color: hsla(55, 40, 87, 1); }
+.My-Color-Theme-3-hsla { color: hsla(54, 67, 72, 1); }
+.My-Color-Theme-4-hsla { color: hsla(55, 6, 38, 1); }
+.My-Color-Theme-5-hsla { color: hsla(55, 33, 56, 1); }
+
 /*------------------------------------- Navbar */
 
 .navbar-brand {
@@ -34,6 +57,14 @@ body, .raleway {
     color: #989359;
 }
 
+.dropdown-toggle::after {
+    color: #706a23;
+}
+
+.dropdown-menu {
+    border: 1px solid #706a23;
+}
+
 /*------------------------------------- Buttons */
 
 .btn--cta {
@@ -55,4 +86,34 @@ body, .raleway {
     background-color: #706a23;
     border-color: #706a23;
     color: white;
+}
+
+/*-------------------------------------Dropdown button */
+
+.dropdown .dropbtn {
+  font-family: "Raleway", sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fafafa;
+  min-width: 160px;
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 10px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #B5AF6B;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
