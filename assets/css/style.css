@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/*------------------------------------- Containers */
-
-.container-wrapper--dark {
-    height: 83vh;
-    background-color: #69685D;
-}
-
-.media {
-    display: block;
-}
-
-/*------------------------------------- Fonts */
-
-body, .raleway {
-    font-family: "Raleway", sans-serif;
-}
-
-.roboto {
-    font-family: "Roboto", sans-serif;
-}
-
 /*------------------------------------- Colors (copied as css from adobe color picker library) */
 
 /* Color Theme Swatches in Hex */
@@ -43,6 +22,40 @@ body, .raleway {
 .My-Color-Theme-3-hsla { color: hsla(54, 67, 72, 1); }
 .My-Color-Theme-4-hsla { color: hsla(55, 6, 38, 1); }
 .My-Color-Theme-5-hsla { color: hsla(55, 33, 56, 1); }
+
+/*------------------------------------- Misc. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.shadow {
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+/*------------------------------------- Containers */
+
+.container-wrapper {
+
+}
+
+.container-wrapper--dark {
+    height: 100vh;
+    background-color: #474646;
+    position: relative;
+}
+
+.media {
+    display: block;
+}
 
 /*------------------------------------- Dividers */
 
@@ -108,7 +121,6 @@ body, .raleway {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    position: relative;
 }
 
 .main-overlay {
@@ -186,7 +198,6 @@ body, .raleway {
     border-width: 3px;
     border-radius: 50%;
     margin: 0 auto;
-    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
 }
 
 .meditation {
@@ -195,7 +206,6 @@ body, .raleway {
     border-radius: 50%;
     width: 100%;
     height: 100%;
-    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
 }
 
 .philosophy-text {
@@ -223,6 +233,17 @@ footer {
 footer p {
     margin-top: 10px;
     color: black;
+}
+
+.back-to-top {
+    color: #7e7e7e;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+.back-to-top:hover {
+    color: #4c4c4c;
+    text-decoration: none;
 }
 
 .list-inline {

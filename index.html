@@ -15,7 +15,7 @@
     </head>
 
     <!--Main body--------------------------------------------------------------------------------------------------------->
-    <body>
+    <body class="container-wrapper" id="page-top">
 
         <!--Navbar-->
         <nav class="navbar navbar-expand-sm navbar-light fixed-top">
@@ -64,7 +64,7 @@
                     <p class="navbar-text my-auto mr-2">
                         <i>Your guide to bodycentric health</i>
                     </p>
-                    <a href="#" class="btn btn--cta btn--gold">Sign In / Sign Up</a>
+                    <a href="#" class="btn btn--cta btn--gold shadow">Sign In / Sign Up</a>
                 </div>
                 <!--/.Signup-->
 
@@ -83,7 +83,7 @@
                         <h1 class="jumbotron-header">
                             Elixr
                         </h1>
-                        <hr class="block-divider">
+                        <hr class="block-divider shadow">
                         <p class="sub-header">
                             Be the change you want to see in the world
                         </p>
@@ -91,9 +91,9 @@
                             Elixr began as a simple vision to change the way we see ourselves by taking an innovative approach to health and wellness. Based on an ancient Ayurvedic practice, our goal is to leave you feeling healthier, stronger and younger than ever by harnessing one of the most powerful medicines known to man: the human body.<br><br>
                             We provide valuable information along with an online program that can be tailored to you goals and lifestyle. This practice is available to every man, woman and child on the planet. And the best part? It's completely free.
                         </p>
-                        <hr class="block-divider">
+                        <hr class="block-divider shadow">
                         <button
-                        class="btn btn-lg btn--cta btn--gold"
+                        class="btn btn-lg btn--cta btn--gold shadow"
                         data-toggle="modal"
                         data-target="#signUpModal"
                         >
@@ -111,14 +111,14 @@
         <!--/.Main-->
 
         <!--Philosophy-->
-        <div class="container-wrapper--dark" id="philosophy">
+        <div class="container-fluid container-wrapper--dark" id="philosophy">
             <section class="philosophy">
 
                 <!--Philosophy header-->
                 <div class="row">
                     <div class="col-12 section-header">
                         <h2 class="sub-header">Our Philosophy</h2>
-                        <hr class="block-divider">
+                        <hr class="block-divider shadow">
                     </div>
                 </div>
                 <!--/.Philosophy header-->
@@ -130,8 +130,8 @@
                     <div class="col-12 col-md-6">
                         <div class="media">
                             <div class="d-none d-sm-block meditation-container">
-                                <div class="meditation-circle">
-                                    <img src="assets/images/meditation.jpeg" class="meditation rounded-circle" alt="meditation">
+                                <div class="meditation-circle shadow">
+                                    <img src="assets/images/meditation.jpeg" class="meditation rounded-circle shadow" alt="meditation">
                                 </div>
                             </div>
                         </div>
@@ -156,13 +156,21 @@
                 </div>
                 <!--/.Philosophy content-->
                             
-            </section>        
+            </section>
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <hr class="block-divider shadow">
+                    <a href="bodycentric-health.html" class="btn btn--cta btn--gold shadow">Read More</a>
+                </div>
+            </div>
+
         </div>
         <!--/.Philosophy-->
 
         <!--Footer-->
         <div>
-        <footer class="container-fluid">
+        <footer class="container-fluid fixed-bottom">
             <div class="row">
             
                 <!--Copyright logo-->
@@ -172,7 +180,9 @@
                 <!--/.Copyright logo-->
 
                 <!--Footer middle-->
-                <div class="col-12 col-md-4"></div>
+                <div class="col-12 col-md-4 text-center">
+                    <p class="inline-block"><a class="inline-block back-to-top" href="#page-top">Back To Top</a></p>
+                </div>
                 <!--/.Footer middle-->
                 
                 <!--Social media links-->
