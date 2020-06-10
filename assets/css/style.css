@@ -27,10 +27,14 @@
 
 html {
   scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
     font-family: "Raleway", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .shadow {
@@ -43,12 +47,20 @@ body {
 
 /*------------------------------------- Containers */
 
-.container-wrapper {
+.navbar-container {
+    height: 75px;
+}
 
+.home-container {
+    height: 100%;
+}
+
+.footer-container {
+    height: 50px;
 }
 
 .container-wrapper--dark {
-    height: 100vh;
+    height: 100%;
     background-color: #474646;
     position: relative;
 }
@@ -76,6 +88,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    height: 75px;
 }
 
 .navbar-brand {
@@ -111,7 +124,7 @@ body {
 /*--------------------------------Main */
 
 .main-container {
-    height: 100vh;
+    height: 100%;
     background: url(../images/jar.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -120,20 +133,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    position: relative;
 }
 
 .main-overlay {
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .jumbotron {
-    margin-top: 100px;
     background-color: transparent;
     animation: fadein1 2s;
     -webkit-animation: fadein1 2s;
@@ -158,6 +170,10 @@ body {
     font-family: "Raleway", sans-serif;
     margin: 25px 0;
     color: white;
+}
+
+.sub-header {
+    font-size: 32px;
 }
 
 .main-paragraph {
@@ -237,7 +253,7 @@ footer {
     background-color: #fafafa;
     margin: 0;
     padding: 0;
-    min-height: 50px;
+    height: 50px;
 }
 
 footer p {

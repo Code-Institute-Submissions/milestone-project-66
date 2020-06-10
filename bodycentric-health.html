@@ -15,119 +15,167 @@
     </head>
 
     <!--Main body--------------------------------------------------------------------------------------------------------->
-    <body>
+    <body id="page-top">
 
         <!--Navbar-->
-        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <div class="container-fluid navbar-container">
+            <nav class="navbar navbar-expand-sm navbar-light fixed-top">
 
-            <!--Logo-->
-            <a class="navbar-brand ml-4" href="index.html">
-                <img src="assets/images/Logo-1.png" class="img-fluid">
-            </a>
-            <!--/.Logo-->
+                <!--Logo-->
+                <a class="navbar-brand ml-4" href="index.html">
+                    <img src="assets/images/Logo-1.png" class="img-fluid" alt="Elixr-logo">
+                </a>
+                <!--/.Logo-->
 
-            <!--Collapse button-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-             </button>
-            <!--/.Collapse button-->
+                <!--Collapse button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--/.Collapse button-->
 
-            <!--Nav list-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-
-                        <!--Nav dropdown-->
-                        <li class="nav-item mr-3 dropdown active">
-                            <a class="nav-link dropdown-toggle dropbtn" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="bodycentric-health.html">Bodycentric Health<span class="sr-only">(current)</span></a>
-                                <div class="dropdown-content" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="bodycentric-health.html">About</a>
-                                    <a class="dropdown-item" href="#">Clean Eating</a>
-                                    <a class="dropdown-item" href="#">Distilled Water</a>
-                                    <a class="dropdown-item" href="#">Fasting</a>
-                                </div>
+                <!--Nav list-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mr-3 active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                         </li>
-                        <!--/.Nav dropdown-->
 
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                            <!--Nav dropdown-->
+                            <li class="nav-item mr-3 dropdown">
+                                <a class="nav-link dropdown-toggle dropbtn" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="bodycentric-health.html">Bodycentric Health</a>
+                                    <div class="dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#about">About</a>
+                                        <a class="dropdown-item" href="#clean-eating">Clean Eating</a>
+                                        <a class="dropdown-item" href="#distilled-water">Distilled Water</a>
+                                        <a class="dropdown-item" href="#fasting">Fasting</a>
+                                    </div>
+                            </li>
+                            <!--/.Nav dropdown-->
 
-                <!--Signup-->
-                <div class="d-none d-md-block">
-                    <p class="navbar-text my-auto mr-2">
-                        <i>Your guide to bodycentric health</i>
-                    </p>
-                    <a href="#" class="btn btn--cta btn--gold mr-4">Sign In / Sign Up</a>
-                </div>
-                <!--/.Signup-->
-
-            </div>
-            <!--/.Nav list-->
-
-        </nav>
-        <!--/.Navbar-->
-        
-        <!--Main-->
-        <div class="container-fluid main-container">
-            <div class="main-overlay">&nbsp;</div>
-            <div class="row">
-                <div class="col-12">
-                    <section class="main text-center">
-                        
-                    </section>
-                </div>
-            </div>
-        </div>
-        <!--/.Main-->
-
-        <!--Footer-->
-        <div>
-        <footer class="container-fluid fixed-bottom">
-            <div class="row">
-            
-                <!--Copyright logo-->
-                <div class="col-12 col-md-4">
-                    <p class="inline-block small ml-4">Copyright © 2020 - <i>vdgvzr_dzns</i></p>
-                </div>
-                <!--/.Copyright logo-->
-
-                <!--Footer middle-->
-                <div class="col-12 col-md-4 text-center">
-                    <p class="inline-block"><a class="inline-block back-to-top" href="#page-top">Back To Top</a></p>
-                </div>
-                <!--/.Footer middle-->
-                
-                <!--Social media links-->
-                <div class="col-12 col-md-4 text-right">
-                    <ul class="list-inline social-media mr-4">
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com" target="_blank">
-                                <i class="fab fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com" target="_blank">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.twitter.com" target="_blank">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
-                </div>
-                <!--Social media links-->
 
+                    <!--Signup-->
+                    <div class="d-none d-md-block">
+                        <p class="navbar-text my-auto mr-2">
+                            <i>Your guide to bodycentric health</i>
+                        </p>
+                        <a href="#" class="btn btn--cta btn--gold shadow mr-4">Sign In / Sign Up</a>
+                    </div>
+                    <!--/.Signup-->
+
+                </div>
+                <!--/.Nav list-->
+
+            </nav>
+        </div>
+        <!--/.Navbar-->
+        
+        <!--Home-->
+        <div class="home-container">
+
+            <!--Main-->
+            <div class="container-fluid main-container">
+                <div class="main-overlay">&nbsp;</div>
+                <div class="row">
+                    <div class="col-12">
+                        <section class="jumbotron text-center">
+                            <h1 class="jumbotron-header" id="bodycentric-health">
+                                Bodycentric Health
+                            </h1>
+                            <hr class="block-divider shadow">
+                            <p class="sub-header" id="about">
+                                About
+                            </p>
+                            <p class="main-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                            </p>
+                            <hr class="block-divider shadow">
+                            <p class="sub-header" id="clean-eating">
+                                Clean Eating
+                            </p>
+                            <p class="main-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                            </p>
+                            <hr class="block-divider shadow">
+                            <p class="sub-header" id="distilled-water">
+                                Distilled Water
+                            </p>
+                            <p class="main-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                            </p>
+                            <hr class="block-divider shadow">
+                            <p class="sub-header" id="fasting">
+                                Fasting
+                            </p>
+                            <p class="main-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                            </p>
+                            <hr class="block-divider shadow">
+                        </section>
+                    </div>
+                </div>
             </div>
-        </footer>
+            <!--/.Main-->
+            
+        </div>
+        <!--/.Home-->
+        
+
+        <!--Footer-->
+        <div class="footer-container">
+            <footer class="container-fluid fixed-bottom">
+                <div class="row">
+                
+                    <!--Copyright logo-->
+                    <div class="col-12 col-md-4">
+                        <p class="inline-block small ml-4">Copyright © 2020 - <i>vdgvzr_dzns</i></p>
+                    </div>
+                    <!--/.Copyright logo-->
+
+                    <!--Footer middle-->
+                    <div class="col-12 col-md-4 text-center">
+                        <p class="inline-block"><a class="inline-block back-to-top" href="#page-top">Back To Top</a></p>
+                    </div>
+                    <!--/.Footer middle-->
+                    
+                    <!--Social media links-->
+                    <div class="col-12 col-md-4 text-right">
+                        <ul class="list-inline social-media mr-4">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.twitter.com" target="_blank">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Social media links-->
+
+                </div>
+            </footer>
         </div>
         <!--/.Footer-->
 
