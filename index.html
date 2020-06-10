@@ -55,7 +55,7 @@
                         <p class="navbar-text my-auto mr-2">
                             <i>Your guide to bodycentric health</i>
                         </p>
-                        <a href="#" class="btn btn--cta btn--gold shadow mr-4">Sign In / Sign Up</a>
+                        <a href="#" class="btn btn--cta btn--gold shadow mr-4" data-toggle="modal" data-target="#sign-up-modal">Sign In | Sign Up</a>
                     </div>
                     <!--/.Signup-->
 
@@ -87,13 +87,7 @@
                                 We provide valuable information along with an online program that can be tailored to you goals and lifestyle. This practice is available to every man, woman and child on the planet. And the best part? It's completely free.
                             </p>
                             <hr class="block-divider shadow">
-                            <button
-                            class="btn btn-lg btn--cta btn--gold shadow"
-                            data-toggle="modal"
-                            data-target="#signUpModal"
-                            >
-                            Sign Up!
-                            </button>
+                            <button class="btn btn-lg btn--cta btn--gold shadow" data-toggle="modal" data-target="#sign-up-modal">Sign Up!</button>
                             <p class="text-muted">
                                 <small>
                                     You must be over 18 to sign up to our service.
@@ -111,10 +105,11 @@
 
                     <!--Philosophy header-->
                     <div class="row">
-                        <div class="col-12 section-header">
-                            <h2 class="sub-header">Our Philosophy</h2>
-                            <hr class="block-divider shadow">
+                        <div class="col-md-4 section-header"></div>
+                        <div class="col-md-4 section-header">
+                            <h2 class="sub-header" id="philosophy-sub">Our Philosophy</h2>
                         </div>
+                        <div class="col-md-4 section-header"></div>
                     </div>
                     <!--/.Philosophy header-->
                             
@@ -125,8 +120,10 @@
                         <div class="col-12 col-md-6">
                             <div class="media">
                                 <div class="d-none d-sm-block meditation-container">
-                                    <div class="meditation-circle shadow">
-                                        <img src="assets/images/meditation.jpeg" class="meditation rounded-circle shadow" alt="meditation">
+                                    <div class="meditation-circle-outer shadow">
+                                        <div class="meditation-circle shadow">
+                                            <img src="assets/images/meditation.jpeg" class="meditation rounded-circle shadow" alt="meditation">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -154,8 +151,7 @@
                     <!--Philosophy button-->
                     <div class="row">
                         <div class="col-12 text-center">
-                            <hr class="block-divider shadow">
-                            <a href="bodycentric-health.html" class="btn btn--cta btn--gold shadow">Read More</a>
+                            <a href="bodycentric-health.html" class="btn btn--cta btn--gold shadow read-more">Read More</a>
                         </div>
                     </div>
                     <!--/.Philosophy button-->         
@@ -214,6 +210,46 @@
             </footer>
         </div>
         <!--/.Footer-->
+
+        <!--Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="sign-up-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Sign Up To Our Tailored Health Plan!</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="repeatPassword">Repeat Password</label>
+                                    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password"/>
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                            <div class="modal-footer">
+                                <div>
+                                    <p class="form-text"><br>Already a member?<a href="#">&nbsp;Login</a></p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </div>
+                        </form>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!--/.Modal-->
 
         <!--External JS frameworks-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

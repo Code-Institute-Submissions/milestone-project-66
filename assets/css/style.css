@@ -176,6 +176,10 @@ body {
     font-size: 32px;
 }
 
+#philosophy-sub {
+    border-bottom: 3px solid #706a23;
+}
+
 .main-paragraph {
     padding: 0 50px;
     font-family: "Roboto", sans-serif;
@@ -202,7 +206,7 @@ body {
 }
 
 .meditation-container {
-    margin: 40px 0 20px 40px;
+    margin: 10px 0 0 40px;
 }
 
 .meditation-circle {
@@ -211,7 +215,18 @@ body {
     padding: 30px;
     border-style: solid;
     border-color: #ECEAD2;
-    border-width: 3px;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.meditation-circle-outer {
+    width: 350px;
+    height: 350px;
+    padding: 22.5px;
+    border-style: solid;
+    border-color: #ECEAD2;
+    border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -219,22 +234,28 @@ body {
 .meditation {
     position: relative;
     object-fit: cover;
+    border: 3px solid #ECEAD2; 
     border-radius: 50%;
     width: 100%;
     height: 100%;
 }
 
 .philosophy-text {
-    color: white;
+    color: #fafafa;
     font-family: "Roboto", sans-serif;
+    margin: 20px 40px 0 0;
     font-size: 0.875em;
-    margin: 40px 40px 20px 0;
+    padding: 10px 0 40px 0;
 }
 
 .philosophy-text strong {
     text-transform: uppercase;
     color: #E8E089;
     letter-spacing: 2px;
+}
+
+.read-more {
+    margin-bottom: 15px;
 }
 
 /*--------------------------------Contact */
@@ -298,6 +319,12 @@ footer p {
 
 .social-media li a i:hover {
     background-color: #989359;
+}
+
+/*------------------------------------- Modal */
+
+.modal-footer {
+    display: block;
 }
 
 /*------------------------------------- Buttons */
