@@ -221,6 +221,16 @@ body {
     letter-spacing: 2px;
 }
 
+/*--------------------------------Contact */
+
+.get-in-touch h1 {
+    font-size: 32px;
+}
+
+.form-control {
+    background-color: #fafafa;
+}
+
 /*--------------------------------Footer */
 
 footer {
