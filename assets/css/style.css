@@ -286,6 +286,10 @@ body {
     position: relative;
 }
 
+.health-section i {
+    font-size: 32px
+}
+
 /*--------------------------------Contact */
 
 .get-in-touch h1 {
