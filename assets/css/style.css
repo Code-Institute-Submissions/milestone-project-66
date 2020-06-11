@@ -57,14 +57,10 @@ body {
 /*------------------------------------- Containers */
 
 .container-wrapper--grey {
+    height: 100vh;
     background-color: #474646;
     color: #fafafa;
     padding-top: 60px;
-}
-
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
 }
 
 /*------------------------------------- Dividers */
@@ -103,6 +99,7 @@ body {
 .navbar-nav {
     width: 100%;
     font-weight: bold;
+    background-color: white;
 }
 
 .nav-signup {
@@ -126,6 +123,8 @@ body {
 .dropdown-menu {
     border: 1px solid #706a23;
 }
+
+
 
 /*--------------------------------Main */
 
@@ -151,7 +150,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .jumbotron {
@@ -186,7 +185,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: white;
     margin-bottom: 20px;
-    font-size: 0.875em;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .jumbotron small {
@@ -197,22 +197,21 @@ body {
 
 /*--------------------------------Philosophy */
 
-.philosophy-section {
+#philosophy {
     text-align: center;
     margin-bottom: 40px;
 }
 
 .philosophy-container {
     height: 100vh;
-    width: 100%;
-    padding-top: 60px;
     position: relative;
     background-color: #474646;
     display: inline-block;
-
+    padding-top: 60px;
 }
 
 .section-header {
+    color: #fafafa;
     letter-spacing: 5px;
     text-align: center;
 }
@@ -256,6 +255,7 @@ body {
     width: 100%;
     height: 100%;
     max-width: 100%;
+    opacity: 0.8;
 }
 
 .philosophy-text {
@@ -280,6 +280,22 @@ body {
 
 /*--------------------------------Bodycentric health */
 
+.bodycentric-main-container {
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    position: relative;
+    background: url(../images/jar.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .bodycentric-health {
     width:1000px;
     margin:0 auto;
@@ -289,6 +305,10 @@ body {
 
 .health-section i {
     font-size: 32px
+}
+
+#clean-eating, #distilled-water, #fasting {
+    padding-top: 60px;
 }
 
 /*--------------------------------Contact */
