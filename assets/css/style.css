@@ -25,6 +25,10 @@
 
 /*------------------------------------- Misc. */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   margin: 0px;
@@ -45,28 +49,22 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.media p {
+  text-align: left;
+}
+
+
 /*------------------------------------- Containers */
 
-.navbar-container {
-    height: 75px;
-}
-
-.home-container {
-    height: 100%;
-}
-
-.footer-container {
-    height: 50px;
-}
-
-.container-wrapper--dark {
-    height: 100%;
+.container-wrapper--grey {
     background-color: #474646;
-    position: relative;
+    color: #fafafa;
+    padding-top: 60px;
 }
 
-.media {
-    display: block;
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /*------------------------------------- Dividers */
@@ -85,10 +83,11 @@ body {
 /*------------------------------------- Navbar */
 
 .navbar {
+    height: 60px;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
     background-color: white;
-    margin: 0;
-    padding: 0;
-    height: 75px;
 }
 
 .navbar-brand {
@@ -101,7 +100,13 @@ body {
 }
 
 .navbar-nav {
+    width: 100%;
     font-weight: bold;
+}
+
+.nav-signup {
+    box-sizing: none;
+    display: inline-block;
 }
 
 .navbar-text {
@@ -126,7 +131,9 @@ body {
 .main-container {
     height: 100%;
     width: 100%;
-    max-width: 100%;
+    float: left;
+    margin-top: 60px;
+    position: relative;
     background: url(../images/jar.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -135,7 +142,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 .main-overlay {
@@ -144,8 +150,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    max-width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.4);
 }
 
 .jumbotron {
@@ -175,10 +180,6 @@ body {
     color: white;
 }
 
-#philosophy-sub {
-    border-bottom: 3px solid #706a23;
-}
-
 .main-paragraph {
     padding: 0 50px;
     font-family: "Roboto", sans-serif;
@@ -195,8 +196,19 @@ body {
 
 /*--------------------------------Philosophy */
 
-.philosophy {
+.philosophy-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.philosophy-container {
+    height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    position: relative;
+    background-color: #474646;
     display: inline-block;
+
 }
 
 .section-header {
@@ -246,11 +258,13 @@ body {
 }
 
 .philosophy-text {
+    width: 100%;
     color: #fafafa;
     font-family: "Roboto", sans-serif;
     margin: 20px 40px 0 0;
-    font-size: 0.875em;
     padding: 10px 0 40px 0;
+    margin-bottom: 20px;
+    font-size: 0.875em;
 }
 
 .philosophy-text strong {
@@ -261,6 +275,15 @@ body {
 
 .read-more {
     margin-bottom: 15px;
+}
+
+/*--------------------------------Bodycentric health */
+
+.bodycentric-health {
+    width:1000px;
+    margin:0 auto;
+    height:100%;
+    position: relative;
 }
 
 /*--------------------------------Contact */
@@ -400,11 +423,34 @@ footer p {
 
 /*-------------------------------------Media queries */
 
-@media screen and (max-width : 375px) {
-    .dropdown-content {
-        position: relative;
+@media screen and (max-width: 576px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .philosophy-content {
+        display: block;
     }
 }
+
+@media screen and (max-width: 992px) { 
+    
+}
+
+@media screen and (max-width: 1040px) { 
+    .nav-signup {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+} 
 
 /*-------------------------------------Animations */
 
