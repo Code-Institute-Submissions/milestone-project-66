@@ -93,6 +93,7 @@ body {
 .navbar-brand {
     width: 125px;
     margin-bottom: 5px;
+    padding: 0;
 }
 
 .navbar .navbar-toggler {
