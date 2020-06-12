@@ -1,44 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/*------------------------------------- Colors (copied as css from adobe color picker library) */
-
-/* Color Theme Swatches in Hex */
-.My-Color-Theme-1-hex { color: #989359; }
-.My-Color-Theme-2-hex { color: #ECEAD2; }
-.My-Color-Theme-3-hex { color: #E8E089; }
-.My-Color-Theme-4-hex { color: #69685D; }
-.My-Color-Theme-5-hex { color: #B5AF6B; }
-
-/* Color Theme Swatches in RGBA */
-.My-Color-Theme-1-rgba { color: rgba(152, 147, 89, 1); }
-.My-Color-Theme-2-rgba { color: rgba(236, 234, 210, 1); }
-.My-Color-Theme-3-rgba { color: rgba(232, 224, 137, 1); }
-.My-Color-Theme-4-rgba { color: rgba(105, 104, 93, 1); }
-.My-Color-Theme-5-rgba { color: rgba(181, 175, 107, 1); }
-
-/* Color Theme Swatches in HSLA */
-.My-Color-Theme-1-hsla { color: hsla(55, 26, 47, 1); }
-.My-Color-Theme-2-hsla { color: hsla(55, 40, 87, 1); }
-.My-Color-Theme-3-hsla { color: hsla(54, 67, 72, 1); }
-.My-Color-Theme-4-hsla { color: hsla(55, 6, 38, 1); }
-.My-Color-Theme-5-hsla { color: hsla(55, 33, 56, 1); }
-
 /*------------------------------------- Misc. */
-
-* {
-  box-sizing: border-box;
-}
 
 html {
   scroll-behavior: smooth;
-  margin: 0px;
-  padding: 0px;
 }
 
 body {
     font-family: "Raleway", sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
 
 .shadow {
@@ -49,21 +18,37 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.media p {
-  text-align: left;
-}
+/* Containers */
 
-
-/*------------------------------------- Containers */
-
-.container-wrapper--grey {
+.main-container {
     height: 100vh;
-    background-color: #474646;
-    color: #fafafa;
-    padding-top: 60px;
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    position: relative;
+    background: url(../images/jar.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/*------------------------------------- Dividers */
+.philosophy-container {
+    height: 100vh;
+    position: relative;
+    background-color: #474646;
+    display: inline-block;
+}
+
+.bodycentric-main-container {
+    height: 100vh;
+    padding: 50px;
+}
+
+/* Block dividers */
 
 .block-divider {
     width: 150px;
@@ -76,7 +61,7 @@ body {
     width: 35px;
 }
 
-/*------------------------------------- Navbar */
+/* Navbar */
 
 .navbar {
     height: 60px;
@@ -94,6 +79,10 @@ body {
 
 .navbar .navbar-toggler {
     border-color: #989359;
+}
+
+.navbar-collapse {
+    flex-basis: 75%;
 }
 
 .navbar-nav {
@@ -124,25 +113,7 @@ body {
     border: 1px solid #706a23;
 }
 
-
-
-/*--------------------------------Main */
-
-.main-container {
-    height: 100vh;
-    width: 100%;
-    float: left;
-    margin-top: 60px;
-    position: relative;
-    background: url(../images/jar.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* Main */
 
 .main-overlay {
     position: absolute;
@@ -150,27 +121,32 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .jumbotron {
+    display: inline-block;
     background-color: transparent;
     animation: fadein1 2s;
     -webkit-animation: fadein1 2s;
     -moz-animation: fadein1 2s;
     -ms-animation: fadein1 2s;
     -o-animation: fadein1 2s;
+    border: 1px solid #706a23;
+    margin: 0;
+    padding:0;
+    height: 100%;
+    width: 100%;
 }
 
 .jumbotron-header {
     text-transform: uppercase;
-    color: #ECEAD2;
-    font-size: 80px;
+    color: white;
+    font-size: 5em;
     letter-spacing: 10px;
     opacity: 0.8;
     margin: 0;
 }
-
 
 .jumbotron .sub-header,
 .sub-header {
@@ -185,28 +161,21 @@ body {
     font-family: "Roboto", sans-serif;
     color: white;
     margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 1.25em;
+    font-weight: 300;
+    z-index: 1;
 }
 
 .jumbotron small {
-    font-size: 60%;
+    font-size: 0.75em;
     font-style: italic;
     color: white;
 }
 
-/*--------------------------------Philosophy */
+/* Philosophy */
 
 #philosophy {
     text-align: center;
-    margin-bottom: 40px;
-}
-
-.philosophy-container {
-    height: 100vh;
-    position: relative;
-    background-color: #474646;
-    display: inline-block;
     padding-top: 60px;
 }
 
@@ -214,13 +183,6 @@ body {
     color: #fafafa;
     letter-spacing: 5px;
     text-align: center;
-}
-
-.meditation-container {
-    margin: 10px 0 0 40px;
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
 }
 
 .meditation-circle {
@@ -260,10 +222,10 @@ body {
 
 .philosophy-text {
     width: 100%;
-    color: #fafafa;
+    color: white;
     font-family: "Roboto", sans-serif;
-    margin: 20px 40px 0 0;
-    padding: 10px 0 40px 0;
+    
+    padding: 40px;
     margin-bottom: 20px;
     font-size: 0.875em;
 }
@@ -278,56 +240,33 @@ body {
     margin-bottom: 15px;
 }
 
-/*--------------------------------Bodycentric health */
-
-.bodycentric-main-container {
-    height: 100%;
-    width: 100%;
-    float: left;
-    margin-top: 60px;
-    position: relative;
-    background: url(../images/jar.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bodycentric-health {
-    width:1000px;
-    margin:0 auto;
-    height:100%;
-    position: relative;
-}
+/* Bodycentric health */
 
 .health-section i {
-    font-size: 32px
+    font-size: 2em;
 }
 
 #clean-eating, #distilled-water, #fasting {
-    padding-top: 60px;
+    padding-top: 75px;
 }
 
-/*--------------------------------Contact */
+/* Contact */
 
-.get-in-touch h1 {
-    font-size: 32px;
+.get-in-touch {
+    border: 1px solid #706a23;
+    padding: 20px;
 }
 
 .form-control {
     background-color: #fafafa;
 }
 
-/*--------------------------------Footer */
+/* Footer */
 
 footer {
     background-color: #fafafa;
     margin: 0;
     padding: 0;
-    height: 50px;
 }
 
 footer p {
@@ -359,7 +298,7 @@ footer p {
     height: 32px;
     padding: 12px 0;
     border-radius: 25%;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -374,13 +313,13 @@ footer p {
     background-color: #989359;
 }
 
-/*------------------------------------- Modal */
+/*  Modal */
 
 .modal-footer {
     display: block;
 }
 
-/*------------------------------------- Buttons */
+/* Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -407,7 +346,7 @@ footer p {
     color: white;
 }
 
-/*-------------------------------------Dropdown button */
+/* Dropdown button */
 
 .dropdown .dropbtn {
     font-family: "Raleway", sans-serif;
@@ -430,12 +369,13 @@ footer p {
     text-decoration: none;
     font-weight: bold;
     float: none;
-    color: black;
+    color: #7f7f7f;
     padding: 10px 10px;
     display: block;
 }
 
 .dropdown-content a:hover {
+    color: #4c4c4c;
     background-color: #B5AF6B;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -447,19 +387,16 @@ footer p {
     display: block;
 }
 
-/*-------------------------------------Media queries */
+/* Media queries */
 
 @media screen and (max-width: 576px) {
-    [class*="col-"] {
-        width: 100%;
+    body {
+        font-size: 0.6em;
     }
-
-    
-
 }
 
 @media screen and (max-width: 768px) {
-    .philosophy-content {
+    #philosophy-section {
         display: block;
     }
 }
@@ -468,17 +405,13 @@ footer p {
     
 }
 
-@media screen and (max-width: 1040px) { 
+@media screen and (max-width: 1200px) {
     .nav-signup {
         display: none;
     }
-}
-
-@media screen and (max-width: 1200px) {
-    
 } 
 
-/*-------------------------------------Animations */
+/* Animations */
 
 @keyframes fadein1 {
     from { opacity: 0; }
