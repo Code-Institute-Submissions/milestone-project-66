@@ -3,79 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--External frameworks-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-        <!--/.External frameworks-->
-
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+            integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <title>Elixr | Bodycentric Health</title>
     </head>
 
-    <!--Main body--------------------------------------------------------------------------------------------------------->
-    <body class="container-wrapper" id="page-top">
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <a class="navbar-brand ml-4" href="index.html">
+                <img src="assets/images/logo-1.png" class="img-fluid" alt="Elixr-logo">
+            </a>
 
-        <!--Navbar-->
-            <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <!--Logo-->
-                
-                    <a class="navbar-brand ml-4" href="index.html">
-                        <img src="assets/images/Logo-1.png" class="img-fluid" alt="Elixr-logo">
-                    </a>
-                
-                <!--/.Logo-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
 
-                <!--Collapse button-->
-                <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--/.Collapse button-->
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="index.html#philosophy">Philosophy</a>
+                    </li>
 
-                <!--Nav list-->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mr-3 active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item mr-3">
-                            <a class="nav-link" href="index.html#philosophy">Philosophy</a>
-                        </li>
-                        <li class="nav-item dropdown dropbtn">
-                            <a class="nav-link dropdown-toggle" href="bodycentric-health.html" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bodycentric Health</a>
-                            <div class="dropdown-content" aria-labelledby="navbar-dropdown">
-                                <a href="bodycentric-health.html">About</a>
-                                <a href="bodycentric-health.html#clean-eating">Clean Eating</a>
-                                <a href="bodycentric-health.html#distilled-water">Distilled Water</a>
-                                <a href="bodycentric-health.html#fasting">Fasting</a>
-                            </div>
-                        </li>
-                        <li class="nav-item mr-3">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.Nav list-->
+                    <li class="nav-item dropdown dropbtn">
+                        <a class="nav-link dropdown-toggle" href="bodycentric-health.html" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bodycentric Health</a>
+                        <div class="dropdown-content" aria-labelledby="navbar-dropdown">
+                            <a href="bodycentric-health.html">About</a>
+                            <a href="bodycentric-health.html#clean-eating">Clean Eating</a>
+                            <a href="bodycentric-health.html#distilled-water">Distilled Water</a>
+                            <a href="bodycentric-health.html#fasting">Fasting</a>
+                        </div>
+                    </li>
 
-                <!--Signup-->
-                <div class="nav-signup">
-                    <p class="navbar-text my-auto mr-2">
-                        <i>Your guide to bodycentric health</i>
-                    </p>
-                    <a href="#" class="btn btn--cta btn--gold shadow mr-4" data-toggle="modal" data-target="#sign-up-modal">Sign In | Sign Up</a>
-                </div>
-                <!--/.Signup-->
+                    <li class="nav-item mr-3 active">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
 
-            </nav>
-        <!--/.Navbar-->
-        
-        <!--Main-->
-        <div class="container-fluid main-container get-in-touch">
+            <div class="nav-signup">
+                <p class="navbar-text my-auto mr-2">
+                    <i>Your guide to bodycentric health</i>
+                </p>
+                <a href="#" class="btn btn--cta btn--gold shadow mr-4" data-toggle="modal" data-target="#sign-up-modal">Sign In | Sign Up</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid main-container">
             <div class="main-overlay">&nbsp;</div>
             <div class="row">
                 <div class="col-12">
-                    <section class="jumbotron">
+                    <section class="jumbotron get-in-touch">
                         <div class="row">
                             <div class="col">
                                 <h1 class="jumbotron-header">Get in touch</h1>
@@ -90,6 +74,10 @@
                                                 <button class="btn btn-lg btn--cta btn--gold shadow mt-2">Send</button>
                                             </div>
                                         </div>
+
+                                        <p class="text-muted text-center">
+                                            <small>Disclaimer: this is a portfolio site, your information will not be shared or submitted.</small>
+                                        </p>
                                     </form>
                                 </div>
                             </div>
@@ -98,37 +86,33 @@
                 </div>
             </div>
         </div>
-        <!--/.Main-->
 
-        <!--Footer-->
-        <footer class="container-fluid">
-            <div class="row">
-            
-                <!--Copyright logo-->
-                <div class="col-12 col-md-4">
-                    <p class="inline-block small ml-4">Copyright © 2020 - <i>vdgvzr_dzns</i></p>
+        <footer>
+            <div class="row no-gutters">
+                <div class="col-4 small pl-2">
+                    <p>Copyright © 2020 - <i>vdgvzr_dzns</i></p>
                 </div>
-                <!--/.Copyright logo-->
 
-                <!--Footer middle-->
-                <div class="col-12 col-md-4 text-center"></div>
-                <!--/.Footer middle-->
-                
-                <!--Social media links-->
-                <div class="col-12 col-md-4 text-right">
-                    <ul class="list-inline social-media mr-4">
+                <div class="col-4 text-center">
+                    <p><a class="back-to-top" href="#page-top">Back To Top</a></p>
+                </div>
+
+                <div class="col-4 text-center pr-2">
+                    <ul class="list-inline social-media">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com" target="_blank">
                                 <i class="fab fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
+
                         <li class="list-inline-item">
                             <a href="https://www.instagram.com" target="_blank">
                                 <i class="fab fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>
                         </li>
+
                         <li class="list-inline-item">
                             <a href="https://www.twitter.com" target="_blank">
                                 <i class="fab fa-twitter" aria-hidden="true"></i>
@@ -137,13 +121,9 @@
                         </li>
                     </ul>
                 </div>
-                <!--Social media links-->
-
             </div>
         </footer>
-        <!--/.Footer-->
 
-        <!--Modal-->
         <div class="modal" tabindex="-1" role="dialog" id="sign-up-modal">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -153,42 +133,40 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
+
                     <div class="modal-body">
                         <form>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
                             </div>
+
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                    <input type="password" class="form-control" id="password" placeholder="Password"/>
+                                <input type="password" class="form-control" id="password" placeholder="Password"/>
                             </div>
+
                             <div class="form-group">
                                 <label for="repeatPassword">Repeat Password</label>
-                                    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password"/>
+                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password"/>
                             </div>
-                            <button type="submit" class="btn btn-success">Submit</button>
+
+                            <button type="submit" class="btn btn-success mb-2">Submit</button>
                             <div class="modal-footer">
                                 <div>
-                                    <p class="form-text"><br>Already a member?<a href="#">&nbsp;Login</a></p>
-                                </div>
-                                <div>
-                                    
+                                    <p class="form-text text-center"><br>Already a member?<a href="#">&nbsp;Login</a></p>
+                                    <p class="text-muted text-center">
+                                        <small>Disclaimer: this is a portfolio site, your information will not be shared or submitted.</small>
+                                    </p>
                                 </div>
                             </div>
                         </form>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
-        <!--/.Modal-->
-
-        <!--External JS frameworks-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <!--/.External JS frameworks-->
-
     </body>
-    <!--/.Main body------------------------------------------------------------------------------------------------------->
 </html>

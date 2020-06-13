@@ -44,7 +44,7 @@ body {
 }
 
 .bodycentric-main-container {
-    height: 100vh;
+    height: 100%;
     padding: 50px;
 }
 
@@ -69,6 +69,7 @@ body {
     border: 0;
     width: 100%;
     background-color: white;
+    position
 }
 
 .navbar-brand {
@@ -179,6 +180,11 @@ body {
     padding-top: 60px;
 }
 
+.philosophy-content {
+    height: 100%;
+    width: 100%;
+}
+
 .section-header {
     color: #fafafa;
     letter-spacing: 5px;
@@ -193,8 +199,9 @@ body {
     border-color: #ECEAD2;
     border-width: 2px;
     border-radius: 50%;
-    margin: 0 auto;
     max-width: 100%;
+    position: relative;
+    margin: 0 auto;
 }
 
 .meditation-circle-outer {
@@ -205,8 +212,8 @@ body {
     border-color: #ECEAD2;
     border-width: 1px;
     border-radius: 50%;
+    position: relative;
     margin: 0 auto;
-    max-width: 100%;
 }
 
 .meditation {
@@ -224,10 +231,9 @@ body {
     width: 100%;
     color: white;
     font-family: "Roboto", sans-serif;
-    
-    padding: 40px;
-    margin-bottom: 20px;
-    font-size: 0.875em;
+    padding: 40px 40px 0px 40px;
+    font-size: 0.75em;
+    position: relative;
 }
 
 .philosophy-text strong {
@@ -264,33 +270,20 @@ body {
 /* Footer */
 
 footer {
-    background-color: #fafafa;
-    margin: 0;
-    padding: 0;
-}
-
-footer p {
-    margin-top: 10px;
-    color: black;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 0;
+    background-color: white;
 }
 
 .back-to-top {
     color: #7e7e7e;
     font-weight: bold;
-    margin-bottom: -1px;
 }
 
 .back-to-top:hover {
     color: #4c4c4c;
     text-decoration: none;
-}
-
-.list-inline {
-    margin: 0;
-}
-
-.social-media {
-    padding-top: 10px;
 }
 
 .social-media li a i {
@@ -393,12 +386,18 @@ footer p {
     body {
         font-size: 0.6em;
     }
+
+    .philosophy-text {
+        text-align: center!important;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
-    #philosophy-section {
-        display: block;
+    .philosophy-text {
+        text-align: center!important;
     }
+
 }
 
 @media screen and (max-width: 992px) { 
