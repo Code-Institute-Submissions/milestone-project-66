@@ -142,16 +142,13 @@ body {
     -ms-animation: fadein1 2s;
     -o-animation: fadein1 2s;
     border: 1px solid #706a23;
-    margin: 0;
-    padding:0;
-    height: 100%;
-    width: 100%;
+    padding: 20px;
 }
 
 .jumbotron-header {
     text-transform: uppercase;
     color: white;
-    font-size: 5em;
+    text-align: center;
     letter-spacing: 10px;
     opacity: 0.8;
     margin: 0;
@@ -170,13 +167,13 @@ body {
     font-family: "Roboto", sans-serif;
     color: white;
     margin-bottom: 20px;
-    font-size: 1.25em;
+    
     font-weight: 300;
     z-index: 1;
 }
 
 .jumbotron small {
-    font-size: 0.75em;
+    
     font-style: italic;
     color: white;
 }
@@ -240,7 +237,7 @@ body {
     color: white;
     font-family: "Roboto", sans-serif;
     padding: 40px 40px 0px 40px;
-    font-size: 0.75em;
+    
     position: relative;
 }
 
@@ -255,10 +252,6 @@ body {
 }
 
 /* Bodycentric health */
-
-.health-section i {
-    font-size: 2em;
-}
 
 #clean-eating, #distilled-water, #fasting {
     padding-top: 75px;
@@ -278,11 +271,15 @@ body {
 /* Footer */
 
 footer {
-    min-height: 50px;
+    height: 60px;
     margin-bottom: 0;
     border: 0;
     background-color: white;
     padding: 10px;
+}
+
+#copyright-text {
+    font-size: 12px;
 }
 
 .back-to-top {
@@ -300,7 +297,6 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 25%;
-    font-size: 1.5em;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -395,17 +391,12 @@ footer {
     body {
         font-size: 0.6em;
     }
-
-    .philosophy-text {
-        text-align: center!important;
-    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .philosophy-text {
         text-align: center!important;
     }
-
 }
 
 @media screen and (max-width: 992px) { 
