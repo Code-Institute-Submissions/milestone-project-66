@@ -22,7 +22,6 @@ body {
 
 .main-container {
     height: 100vh;
-    float: left;
     margin-top: 60px;
     position: relative;
     background: url(../images/jar.jpeg) no-repeat center center fixed; 
@@ -36,7 +35,7 @@ body {
 }
 
 .philosophy-container {
-    height: 100%;
+    min-height: 100vh;
     position: relative;
     background-color: #474646;
     display: inline-block;
@@ -44,7 +43,6 @@ body {
 
 .bodycentric-main-container {
     height: 100%;
-    float: left;
     margin-top: 60px;
     position: relative;
     background: url(../images/jar.jpeg) no-repeat center center fixed; 
@@ -55,19 +53,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
 
 /* Block dividers */
 
 .block-divider {
-    width: 150px;
+    width: 30%;
     height: 3px;
     border: 0;
     background-color: #ECEAD2;
-}
-
-.block-divider--small {
-    width: 35px;
 }
 
 /* Navbar */
@@ -130,8 +125,8 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
-}
+    background-color: rgba(0,0,0,0.5);
+} 
 
 .jumbotron {
     display: inline-block;
@@ -185,11 +180,6 @@ body {
     padding-top: 60px;
 }
 
-.philosophy-content {
-    height: 100%;
-    width: 100%;
-}
-
 .section-header {
     color: #fafafa;
     letter-spacing: 5px;
@@ -205,7 +195,6 @@ body {
     border-width: 2px;
     border-radius: 50%;
     max-width: 100%;
-    position: relative;
     margin: 0 auto;
 }
 
@@ -217,12 +206,10 @@ body {
     border-color: #ECEAD2;
     border-width: 1px;
     border-radius: 50%;
-    position: relative;
     margin: 0 auto;
 }
 
 .meditation {
-    position: relative;
     object-fit: cover;
     border: 3px solid #ECEAD2; 
     border-radius: 50%;
@@ -233,12 +220,10 @@ body {
 }
 
 .philosophy-text {
-    width: 100%;
+    font-size: 12px;
     color: white;
     font-family: "Roboto", sans-serif;
     padding: 40px 40px 0px 40px;
-    
-    position: relative;
 }
 
 .philosophy-text strong {
@@ -271,11 +256,11 @@ body {
 /* Footer */
 
 footer {
-    height: 60px;
-    margin-bottom: 0;
-    border: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
     background-color: white;
-    padding: 10px;
 }
 
 #copyright-text {
@@ -292,12 +277,16 @@ footer {
     text-decoration: none;
 }
 
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
 .social-media li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    border-radius: 25%;
-    line-height: 7px;
+    border-radius: 50%;
+    line-height: 8px;
     text-align: center;
     color: #fafafa;
     background-color: #8f8f8f;
@@ -321,7 +310,6 @@ footer {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
     width: 160px;
 }
 
@@ -393,7 +381,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .philosophy-text {
         text-align: center!important;
     }
