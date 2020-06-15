@@ -162,7 +162,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: white;
     margin-bottom: 20px;
-    
     font-weight: 300;
     z-index: 1;
 }
@@ -375,11 +374,11 @@ footer {
 
 /* Media queries */
 
-@media screen and (max-width: 576px) {
-    body {
-        font-size: 0.6em;
+@media screen and (max-width: 1200px) {
+    .nav-signup {
+        display: none;
     }
-}
+} 
 
 @media screen and (max-width: 768px) {
     .philosophy-text {
@@ -387,15 +386,44 @@ footer {
     }
 }
 
-@media screen and (max-width: 992px) { 
-    
-}
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width: 1200px) {
-    .nav-signup {
+    .main-container {
+        height: 100%;
+    }
+
+    .main-paragraph {
+        padding: 0;
+    }
+
+    .jumbotron {
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .meditation-circle-outer {
         display: none;
     }
-} 
+
+    .col-lg-6 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #copyright-text {
+        font-size: 10px;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .social-media li a i {
+        width: 24px;
+        height: 24px;
+        line-height: 0px;
+    }
+}
 
 /* Animations */
 
