@@ -401,6 +401,10 @@ footer {
         font-size: 12px;
     }
 
+    .jumbotron-header, .sub-header {
+        font-size: small;
+    }
+
     .meditation-circle-outer {
         display: none;
     }
