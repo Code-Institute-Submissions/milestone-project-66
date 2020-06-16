@@ -146,7 +146,7 @@ in order to build my own CSS based on that.
 
 ## Deployment
 
-My site has been deployed on github pages. The site can be found [here](https://vdgvzr.github.io/milestone-project-1/)
+My site has been deployed on github pages. The site can be found [here](https://www.elixr.com/)
 
 ***
 
