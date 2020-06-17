@@ -159,4 +159,7 @@ My site has been deployed on GitHub pages. The site can be found [here](https://
 
 ### Acknowledgements
 
-* I took inspiration from my version of the "Whiskey Drop" project done via the code institute course for the basic page layout for the site.
+* I took inspiration from my versions of the "Whiskey Drop", "Love Running" and "Resume" pojects written as part of
+the Code Institute course. Any sections with inspiration have been commented within the code. This process involved
+writing the basic structures out and working backwards in order to understand how the code worked and to tailor it for
+the design of this project. I then used this to build upon my own design and to develop the HTML and CSS further for my project.
