@@ -96,7 +96,7 @@ body {
 }
 
 .nav-signup {
-    box-sizing: none;
+    box-sizing: border-box;
     display: inline-block;
 }
 
@@ -316,7 +316,7 @@ footer {
 .btn--gold {
     color: white;
     background-color: #989359;
-    border-color: #989359;
+    border: 0;
 }
 
 .btn--gold:hover,
@@ -328,7 +328,7 @@ footer {
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     background-color: #706a23;
-    border-color: #706a23;
+    border: 0;
     color: white;
 }
 
